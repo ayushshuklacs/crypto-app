@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="symbol">Symbol</string>
+    <string name="base_asset">Base Asset</string>
+    <string name="quote_asset">Quote Asset</string>
+    <string name="at">At</string>
+    <string name="bid_price">Bid price</string>
+    <string name="volume">Volume</string>
+    <string name="high_price">High price</string>
+    <string name="low_price">Low price</string>
+    <string name="open_price">Open price</string>
+    <string name="exchange_information">Exchange Information</string>
+</resources>

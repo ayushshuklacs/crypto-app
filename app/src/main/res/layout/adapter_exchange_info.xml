@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    android:padding="6dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardUseCompatPadding="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/layout_symbol"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_base_asset"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_quote_asset"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_open_price"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_low_price"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_high_price"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_last_price"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_volume"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_bid_price"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_ask_price"
+            layout="@layout/title_value_layout" />
+
+        <include
+            android:id="@+id/layout_at"
+            layout="@layout/title_value_layout" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</com.google.android.material.card.MaterialCardView>
